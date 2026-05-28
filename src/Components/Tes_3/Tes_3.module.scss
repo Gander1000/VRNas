@@ -1,0 +1,165 @@
+.Tes_3 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 3vw 6vw;
+  background-color: #18181b;
+  padding-left: 1.5vw;
+  overflow: hidden;
+
+  @media (max-width:1429px) {
+    flex-direction: column;
+    gap: 60px;
+    padding-left: 6vw;
+  }
+
+  .colza {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px #ffffff3d;
+    border-radius: 50%;
+    width: 686px;
+    height: 686px;
+    position: relative;
+
+    .orb_1 {
+      position: absolute;
+      left: 8%;
+      top: 15%;
+    }
+    .orb_2 {
+      position: absolute;
+      left: 4%;
+      bottom: 20%;
+    }
+    .orb_3 {
+      position: absolute;
+      left: 30%;
+      bottom: 0;
+    }
+
+    .colza_1 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      border: solid 1px #ffffff3d;
+      border-radius: 50%;
+      width: 564px;
+      height: 564px;
+      position: relative;
+
+      .mes {
+        position: absolute;
+        left: 82%;
+        top: 80%;
+      }
+
+      img {
+        position: absolute;
+        left: -17%;
+        top: -8%;
+      }
+    }
+  }
+
+  .contai_title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    z-index: 10;
+
+    @media (max-width:1429px) {
+      width: 100%;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 14%;
+      background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 58px;
+      letter-spacing: -0.5%;
+    }
+
+    span {
+      font-size: 16px;
+      font-weight: 300;
+      color: #d1d1d1;
+      line-height: 28px;
+      letter-spacing: 0%;
+    }
+
+    .contai_input {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+
+      @media (max-width:600px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      input {
+        background-color: #25253299;
+        border: none;
+        outline: none;
+        border: 1px solid;
+        border-image: linear-gradient(90deg, #ffffff3d, #ffffff00) 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #d1d1d1;
+        line-height: 28px;
+        font-weight: 300;
+        letter-spacing: 0%;
+      }
+    }
+
+    input {
+      background-color: #25253299;
+      border: none;
+      outline: none;
+      border: 1px solid;
+      border-image: linear-gradient(90deg, #ffffff3d, #ffffff00) 1;
+      padding: 15px;
+      padding-bottom: 5vw;
+      font-size: 16px;
+      color: #d1d1d1;
+      line-height: 28px;
+      font-weight: 300;
+      letter-spacing: 0%;
+    }
+
+    button {
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14px;
+      letter-spacing: 1.5px;
+      color: #ffffff;
+      background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+      border: none;
+      padding: 1vw;
+      width: 25%;
+      transition: 0.3s;
+
+      &:hover {
+        background: linear-gradient(90deg, #0cbcf1e0, #e95ce9d8);
+      }
+    }
+  }
+}

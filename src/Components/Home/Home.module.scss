@@ -1,0 +1,134 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6vw;
+  padding-top: 3vw;
+  background-color: #18181b;
+  overflow: hidden;
+
+  @media (max-width:1190px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    gap: 30px;
+
+    @media (max-width: 1429px) {
+      width: 50%;
+    }
+
+    @media (max-width: 1190px) {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 64px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 100%;
+      letter-spacing: -0.5%;
+    }
+
+    span {
+      font-size: 16px;
+      color: #d1d1d1;
+      font-weight: 300;
+      line-height: 28px;
+      letter-spacing: 0;
+    }
+
+    a {
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14px;
+      letter-spacing: 1.5px;
+      color: #ffffff;
+      padding: 1vw;
+      background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+      width: 100%;
+      max-width: 150px;
+      transition: 0.3s;
+
+      &:hover {
+        background: linear-gradient(90deg, #0cbcf1e3, #e95ce9e5);
+      }
+    }
+
+    .contai_vir {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .vr {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        p {
+          font-size: 16px;
+          font-weight: 300;
+          color: #d1d1d1;
+          line-height: 28px;
+          letter-spacing: 0;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          span {
+            color: #ffffff;
+          }
+        }
+
+        .men {
+          display: flex;
+          align-items: center;
+        }
+
+        .men img:not(:first-child) {
+          margin-left: -12px;
+        }
+      }
+
+      .video {
+        width: auto;
+        display: flex;
+
+        @media (max-width:1190px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .men {
+    width: auto;
+    display: flex;
+
+    @media (max-width: 1190px) {
+      display: none;
+    }
+  }
+
+  .contai_mob_img {
+    display: none;
+
+    @media (max-width: 1190px) {
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding-left: 70vw;
+
+      .video_mob{
+        position: absolute;
+        left: 29%;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.Our_team {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 3vw 6vw;
+  background-color: #18181b;
+  align-items: center;
+  padding-bottom: 10vw;
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 14%;
+    background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .contai_cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 40px;
+    width: 100%;
+    align-items: center;
+
+    @media (max-width:1000px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width:500px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cart {
+      width: 100%;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.Cart_3 {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 6vw;
+  background-color: #18181b;
+  gap: 20px;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 14%;
+    background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 58px;
+    letter-spacing: -0.5%;
+    text-align: center;
+    padding-bottom: 3vw;
+  }
+
+  .contai_cart {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 3vw;
+    background-color: #252532;
+    border: 1px solid #ffffff3d;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .bloc {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      img {
+        width: 70px;
+        padding-bottom: 30px;
+      }
+
+      h1 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 100%;
+        letter-spacing: 0;
+        text-align: start;
+        padding-bottom: 0;
+      }
+
+      span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #b0b0b2;
+        line-height: 28px;
+        letter-spacing: 0;
+      }
+    }
+  }
+}

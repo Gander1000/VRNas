@@ -1,0 +1,146 @@
+.Foter {
+  background-color: #18181b;
+  padding: 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  .top_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 0;
+    background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+    width: 100%;
+    margin-bottom: 11vw;
+
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 58px;
+      letter-spacing: -0.5%;
+      padding-left: 3vw;
+    }
+
+    .input_email {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background-color: #ffffff12;
+      padding: 5px;
+      padding-left: 17px;
+      margin-right: 3vw;
+
+      input {
+        background-color: #ffffff00;
+        border: none;
+        outline: none;
+        color: #ffffff;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #ffffff36;
+        margin-left: 30px;
+      }
+
+      input::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 28px;
+        letter-spacing: 0%;
+        opacity: 1;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 0.5px solid;
+    border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+    padding-bottom: 40px;
+
+    @media (max-width: 926px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+
+      > *:nth-child(3n + 1) {
+        grid-column: span 2;
+      }
+    }
+
+    .contai_logo {
+      display: flex;
+      flex-direction: column;
+      gap: 9vw;
+
+      @media (max-width: 926px) {
+        display: flex;
+        flex-direction: row;
+      }
+
+      img {
+        width: 101px;
+      }
+
+      .contai_mes {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+          width: 46px;
+        }
+      }
+    }
+
+    .contai_Link {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h3 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+        line-height: 28px;
+        letter-spacing: 0;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0%;
+        color: #ffffff9c;
+      }
+    }
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 28px;
+    letter-spacing: 0%;
+  }
+}

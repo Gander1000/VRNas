@@ -1,0 +1,102 @@
+.Blog {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 6vw;
+  background-color: #18181b;
+  align-items: center;
+  gap: 60px;
+
+  .contai_cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    @media (max-width: 800px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 500px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cart {
+      display: flex;
+      flex-direction: column;
+      background-color: #252532;
+      border: solid 1px;
+      border-image: linear-gradient(90deg, #ffffff3d, #ffffff00) 1;
+
+      .contai_title {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+
+        p {
+          font-size: 14px;
+          font-weight: 500;
+          color: #ffffff;
+          line-height: 20px;
+          letter-spacing: 0%;
+          background-color: #ffffff4d;
+          border-radius: 20px;
+          padding: 3px;
+          text-align: center;
+          white-space: nowrap;
+          width: fit-content;
+        }
+
+        span {
+          font-size: 18px;
+          font-weight: 400;
+          color: #ffffff;
+          line-height: 100%;
+          letter-spacing: 0px;
+        }
+
+        a {
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 14px;
+          letter-spacing: 1.5px;
+          background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+          border-bottom: 1px solid;
+          border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-decoration: none;
+          outline: none;
+          width: fit-content;
+          white-space: nowrap;
+        }
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .vtf {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    P {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 100%;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+      background-color: #ffffff0f;
+      border: 0.74px solid;
+      border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+      width: 34px;
+      height: 34px;
+    }
+  }
+}

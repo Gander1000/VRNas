@@ -1,0 +1,141 @@
+.Cart_5 {
+  padding: 3vw 6vw;
+  background-color: #18181b;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+  .top_p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 14%;
+    background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .top_h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.5%;
+    color: #ffffff;
+  }
+
+  .top_span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #d1d1d1;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .contai_cart {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    @media (max-width:1000px) {
+      flex-direction: column;
+      width: 100%;
+      gap: 30px;
+    }
+
+    .cart {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background-color: #252532;
+      padding: 40px;
+      border: 1px solid #252532;
+      transition: 0.3s;
+
+      @media (max-width:1000px) {
+        width: 90%;
+      }
+
+      @media (max-width:500px) {
+        width: 70%;
+      }
+      
+      &:hover{
+        border-image: linear-gradient(90deg, #0CBAF1, #E95CE9) 1;
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 100%;
+        letter-spacing: 0%;
+      }
+
+      h1 {
+        display: flex;
+        align-items: end;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: -0.5%;
+        color: #ffffff;
+
+        span {
+          font-size: 16px;
+          font-weight: 300;
+          color: #71717a;
+          line-height: 28px;
+          letter-spacing: 0%;
+        }
+      }
+
+      span {
+        font-size: 16px;
+        font-weight: 400;
+        color: #b0b0b2;
+        line-height: 28px;
+        letter-spacing: 0%;
+      }
+
+      .contai_span {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        span {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 100%;
+          letter-spacing: 0%;
+          color: #ffffff;
+        }
+      }
+
+      button {
+        margin-top: 4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 1.5px;
+        color: #ffffff;
+        background-color: #ffffff0f;
+        border: 1px solid;
+        border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+        padding: 1vw;
+        cursor: pointer;
+
+        &:hover {
+          background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+        }
+      }
+    }
+  }
+}

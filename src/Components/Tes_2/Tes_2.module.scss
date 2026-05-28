@@ -1,0 +1,203 @@
+.Tes_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 6vw;
+  background-color: #18181b;
+  position: relative;
+
+  @media (max-width: 700px) {
+    padding: 100vw 6vw;
+    padding-top: 30vw;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 14%;
+    background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+
+    @media (max-width: 566px) {
+      text-align: center;
+    }
+  }
+
+  .colza {
+    width: 1054.9189453125px;
+    height: 1054.9189453125px;
+    border-radius: 50%;
+    border-top: 1px solid #ffffff2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 1197px) {
+      transform: scale(0.7);
+    }
+
+    @media (max-width: 1197px) {
+      transform: scale(0.6);
+    }
+
+    @media (max-width: 700px) {
+      transform: scale(0.4);
+      position: absolute;
+      top: 10%;
+
+    }
+
+    @media (max-width: 480px) {
+      transform:scale(0.3);
+    }
+
+    .colza_1 {
+      width: 917.026611328125px;
+      height: 917.026611328125px;
+      border-radius: 50%;
+      border-top: 1px solid #ffffff2b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      .logo {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #252532cc;
+        border-radius: 50%;
+        position: absolute;
+        left: -6%;
+        border: solid 1px #ffffff2b;
+      }
+      .logo_1 {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #252532cc;
+        border-radius: 50%;
+        position: absolute;
+        left: 0%;
+        top: 20%;
+        border: solid 1px #ffffff2b;
+      }
+      .logo_2 {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #252532cc;
+        border-radius: 50%;
+        position: absolute;
+        left: 17%;
+        top: 2%;
+        border: solid 1px #ffffff2b;
+      }
+      .logo_3 {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #252532cc;
+        border-radius: 50%;
+        position: absolute;
+        left: 43.5%;
+        top: -5.5%;
+        border: solid 1px #ffffff2b;
+      }
+      .logo_4 {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #252532cc;
+        border-radius: 50%;
+        position: absolute;
+        right: 17%;
+        top: 2%;
+        border: solid 1px #ffffff2b;
+      }
+      .logo_5 {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #252532cc;
+        border-radius: 50%;
+        position: absolute;
+        right: 0%;
+        top: 20%;
+        border: solid 1px #ffffff2b;
+      }
+      .logo_6 {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #252532cc;
+        border-radius: 50%;
+        position: absolute;
+        right: -6%;
+        border: solid 1px #ffffff2b;
+      }
+
+      .colza_2 {
+        width: 760.5230102539062px;
+        height: 760.5230102539062px;
+        border-radius: 50%;
+        border-top: 1px solid #ffffff2b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .colza_3 {
+          width: 623px;
+          height: 623px;
+          border-radius: 50%;
+          border-top: 1px solid #ffffff2b;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+
+          img {
+            position: absolute;
+            right: -38%;
+            top: -5%;
+          }
+        }
+      }
+    }
+  }
+}

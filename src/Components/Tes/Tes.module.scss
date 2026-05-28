@@ -1,0 +1,423 @@
+.Tes {
+  padding: 4vw 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #18181b;
+  position: relative;
+  overflow: hidden;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    top: 13.5%;
+
+    @media (max-width: 1429px) {
+      top: 5%;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 14%;
+      background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 58px;
+      letter-spacing: -0.5%;
+
+      @media (max-width: 600px) {
+        text-align: center;
+      }
+    }
+  }
+
+  .colza {
+    width: 1247px;
+    height: 1247px;
+    border: solid 1px #ffffff2b;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .profil {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      position: absolute;
+      left: 3.5%;
+      top: 20%;
+      transition: 0.3s;
+
+      @media (max-width: 1429px) {
+        left: 24.5%;
+        top: 0%;
+      }
+
+      &:hover {
+        .colza_title {
+          opacity: 1;
+        }
+      }
+
+      .colza_title {
+        display: flex;
+        flex-direction: column;
+        background-color: #252532c4;
+        padding: 1vw;
+        border: solid 1px #ffffff2b;
+        gap: 10px;
+        padding-left: 2vw;
+        border-radius: 5vw 0 0 5vw;
+        opacity: 0;
+        transition: 0.3s;
+
+        span {
+          font-size: 12px;
+          font-weight: 400;
+          color: #d1d1d1;
+          line-height: 20px;
+          letter-spacing: 0%;
+        }
+
+        h5 {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #d1d1d1;
+          line-height: 20px;
+          letter-spacing: 0%;
+          border-bottom: solid 1px;
+          border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+          width: 100%;
+          max-width: 56%;
+
+          span {
+            font-size: 12px;
+            font-weight: 400;
+            color: #ffffff;
+            line-height: 24px;
+            letter-spacing: 0%;
+          }
+        }
+      }
+
+      .men {
+        border: solid 1px #ffffff2b;
+        border-radius: 50%;
+        padding: 10px;
+        transition: 0.3s;
+
+        &:hover {
+          background:
+            linear-gradient(#000, #000) padding-box,
+            linear-gradient(90deg, #0cbaf1, #e95ce9) border-box;
+        }
+      }
+    }
+
+    .colza_1 {
+      width: 1084px;
+      height: 1084px;
+      border: solid 1px #ffffff2b;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      .profil_1 {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        position: absolute;
+        left: 3.5%;
+        bottom: 20%;
+        transition: 0.3s;
+        z-index: 10;
+
+        @media (max-width: 1429px) {
+          left: 44%;
+          bottom: -5.5%;
+        }
+
+        &:hover {
+          .colza_title {
+            opacity: 1;
+          }
+        }
+
+        .colza_title {
+          display: flex;
+          flex-direction: column;
+          background-color: #252532c4;
+          padding: 1vw;
+          border: solid 1px #ffffff2b;
+          gap: 10px;
+          padding-left: 2vw;
+          border-radius: 5vw 0 0 5vw;
+          opacity: 0;
+          transition: 0.3s;
+
+          span {
+            font-size: 12px;
+            font-weight: 400;
+            color: #d1d1d1;
+            line-height: 20px;
+            letter-spacing: 0%;
+          }
+
+          h5 {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #d1d1d1;
+            line-height: 20px;
+            letter-spacing: 0%;
+            border-bottom: solid 1px;
+            border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+            width: 100%;
+            max-width: 56%;
+
+            span {
+              font-size: 12px;
+              font-weight: 400;
+              color: #ffffff;
+              line-height: 24px;
+              letter-spacing: 0%;
+            }
+          }
+        }
+
+        .men {
+          border: solid 1px #ffffff2b;
+          border-radius: 50%;
+          padding: 10px;
+          transition: 0.3s;
+
+          &:hover {
+            background:
+              linear-gradient(#000, #000) padding-box,
+              linear-gradient(90deg, #0cbaf1, #e95ce9) border-box;
+          }
+        }
+      }
+
+      .colza_2 {
+        width: 899px;
+        height: 899px;
+        border: solid 1px #ffffff2b;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .profil_2 {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          position: absolute;
+          right: -32.5%;
+          top: 20%;
+          transition: 0.3s;
+          z-index: 10;
+
+          @media (max-width: 1429px) {
+            bottom: -79%;
+            right: 10%;
+          }
+
+          &:hover {
+            .colza_title {
+              opacity: 1;
+            }
+          }
+
+          .colza_title {
+            display: flex;
+            flex-direction: column;
+            background-color: #252532c4;
+            padding: 1vw;
+            border: solid 1px #ffffff2b;
+            gap: 10px;
+            padding-left: 2vw;
+            border-radius: 5vw 0 0 5vw;
+            opacity: 0;
+            transition: 0.3s;
+
+            span {
+              font-size: 12px;
+              font-weight: 400;
+              color: #d1d1d1;
+              line-height: 20px;
+              letter-spacing: 0%;
+            }
+
+            h5 {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              font-size: 12px;
+              font-weight: 400;
+              color: #d1d1d1;
+              line-height: 20px;
+              letter-spacing: 0%;
+              border-bottom: solid 1px;
+              border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+              width: 100%;
+              max-width: 56%;
+
+              span {
+                font-size: 12px;
+                font-weight: 400;
+                color: #ffffff;
+                line-height: 24px;
+                letter-spacing: 0%;
+              }
+            }
+          }
+
+          .men {
+            border: solid 1px #ffffff2b;
+            border-radius: 50%;
+            padding: 10px;
+            transition: 0.3s;
+
+            &:hover {
+              background:
+                linear-gradient(#000, #000) padding-box,
+                linear-gradient(90deg, #0cbaf1, #e95ce9) border-box;
+            }
+          }
+        }
+
+        .colza_3 {
+          width: 736.1021728515625px;
+          height: 736.1021728515625px;
+          border: solid 1px #ffffff2b;
+          border-radius: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+
+          .profil_3 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: absolute;
+            right: -26%;
+            top: 1%;
+            transition: 0.3s;
+            z-index: 10;
+
+            @media (max-width: 1429px) {
+              top: -8.6%;
+              right: 7%;
+            }
+
+            &:hover {
+              .colza_title {
+                opacity: 1;
+              }
+            }
+
+            .colza_title {
+              display: flex;
+              flex-direction: column;
+              background-color: #252532c4;
+              padding: 1vw;
+              border: solid 1px #ffffff2b;
+              gap: 10px;
+              padding-left: 2vw;
+              border-radius: 5vw 0 0 5vw;
+              opacity: 0;
+              transition: 0.3s;
+
+              span {
+                font-size: 12px;
+                font-weight: 400;
+                color: #d1d1d1;
+                line-height: 20px;
+                letter-spacing: 0%;
+              }
+
+              h5 {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #d1d1d1;
+                line-height: 20px;
+                letter-spacing: 0%;
+                border-bottom: solid 1px;
+                border-image: linear-gradient(90deg, #0cbaf1, #e95ce9) 1;
+                width: 100%;
+                max-width: 56%;
+
+                span {
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #ffffff;
+                  line-height: 24px;
+                  letter-spacing: 0%;
+                }
+              }
+            }
+
+            .men {
+              border: solid 1px #ffffff2b;
+              border-radius: 50%;
+              padding: 10px;
+              transition: 0.3s;
+
+              &:hover {
+                background:
+                  linear-gradient(#000, #000) padding-box,
+                  linear-gradient(90deg, #0cbaf1, #e95ce9) border-box;
+              }
+            }
+          }
+
+          .colza_4 {
+            width: 564.6307983398438px;
+            height: 564.6307983398438px;
+            border: solid 1px #ffffff2b;
+            border-radius: 50%;
+            display: flex;
+            position: relative;
+            position: relative;
+
+            img {
+              position: absolute;
+              left: -37%;
+              top: -12%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
