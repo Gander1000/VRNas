@@ -1,6 +1,6 @@
 import scss from "./Title.module.scss";
 import check from "../../assets/check-box.svg";
-import men from "../../assets/image_men.svg";
+import men from "../../assets/Image_men.svg";
 import video from "../../assets/Video 2.svg";
 
 function Title() {
